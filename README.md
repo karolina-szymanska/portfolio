@@ -49,7 +49,7 @@ The page must look good and be responsive.
 1. Clone the repo:
 
 ```
-https://github.com/karolina-szymanska/portfolio-2
+https://github.com/karolina-szymanska/portfolio
 ```
 
 2. Install the dependencies:
