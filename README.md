@@ -32,14 +32,14 @@ The page must look good and be responsive.
 
 - [Vite](https://vitejs.dev/)
 - [React](https://react.dev/)
-- [React-Router-DOM](https://reactrouter.com/en/main)
 - [Three.js](https://threejs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
 
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/vitejs/vitejs-original.svg" title="Vite" alt="Vite" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/reactrouter/reactrouter-original.svg" title="React Router" alt="React Router" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/threejs/threejs-original.svg" title="Three JS" alt="Three JS" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-original.svg" title="Tailwind CSS" alt="Tailwind CSS" width="40" height="40"/>&nbsp;
 </div>
 
 ## Getting Started
