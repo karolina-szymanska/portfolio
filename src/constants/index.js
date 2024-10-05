@@ -60,9 +60,15 @@ export const myProjects = [
   {
     title: "Semester Project 2, Auction",
     desc: "Auction is a website where users can add items to be bid on and bid on items other users have put up for auction. Users can get credits by selling items and use credit by buying items. Non-registered users can search through the listings.",
-    subdesc: "Built with HTML5, Bootstrap, JavaScript and SASS.",
+    subdesc: "Built with HTML5, Bootstrap, JavaScript, SASS.",
     href: "https://auction-semester-project-2.netlify.app/",
     // texture: "/textures/project/project1.mp4",
+    logo: "/assets/project-logo1.png",
+    logoStyle: {
+      backgroundColor: "#2A1816",
+      border: "0.2px solid #36201D",
+      boxShadow: "0px 0px 60px 0px #AA3C304D",
+    },
     spotlight: "/assets/spotlight1.png",
     tags: [
       {
@@ -90,9 +96,17 @@ export const myProjects = [
   {
     title: "JavaScript CA, eCOM",
     desc: "The Homepage has a list of all the products. The individual product page displays data for a single product. Cart page lists all of the chosen products as well as a total. Contact page ensures form validation.",
-    subdesc: "Built with React, React-Router-DOM, JavaScript and Zustand.",
+    subdesc: "Built with React, React-Router-DOM, JavaScript, Zustand.",
     href: "https://javascript-frameworks-react-ca.netlify.app/",
     // texture: "/textures/project/project2.mp4",
+    logo: "/assets/project-logo2.png",
+    logoStyle: {
+      backgroundColor: "#60f5a1",
+      background:
+        "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+      border: "0.2px solid rgba(208, 213, 221, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+    },
     spotlight: "/assets/spotlight2.png",
     tags: [
       {
@@ -115,10 +129,17 @@ export const myProjects = [
   {
     title: "Project Exam 2, Holidaze",
     desc: "The two main aspects: the customer-facing side of the website where users can book holidays at a venue, and an admin-facing side of the website where users can register and manage venues and bookings at those venues.",
-    subdesc: "Built with Vite, React, React-Router-DOM and TailwindCSS.",
+    subdesc: "Built with Vite, React, React-Router-DOM, TailwindCSS.",
     href: "https://project-exam-2-karolina-szymanska.netlify.app/",
     // texture: "/textures/project/project3.mp4",
+    logo: "/assets/project-logo3.png",
+    logoStyle: {
+      backgroundColor: "#13202F",
+      border: "0.2px solid #17293E",
+      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+    },
     spotlight: "/assets/spotlight3.png",
+
     tags: [
       {
         id: 1,
