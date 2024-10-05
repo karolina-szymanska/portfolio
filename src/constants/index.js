@@ -63,7 +63,7 @@ export const myProjects = [
     subdesc: "Built with HTML5, Bootstrap, JavaScript, SASS.",
     href: "https://auction-semester-project-2.netlify.app/",
     github: "https://github.com/karolina-szymanska/auction-semester-project-2",
-    // texture: "/textures/project/project1.mp4",
+    texture: "/textures/project/project1.png",
     logo: "/assets/project-logo1.png",
     logoStyle: {
       backgroundColor: "#2A1816",
@@ -100,7 +100,7 @@ export const myProjects = [
     subdesc: "Built with React, React-Router-DOM, JavaScript, Zustand.",
     href: "https://javascript-frameworks-react-ca.netlify.app/",
     github: "https://github.com/karolina-szymanska/javascript-frameworks-ca",
-    // texture: "/textures/project/project2.mp4",
+    texture: "/textures/project/project2.png",
     logo: "/assets/project-logo2.png",
     logoStyle: {
       backgroundColor: "#60f5a1",
@@ -134,7 +134,7 @@ export const myProjects = [
     subdesc: "Built with Vite, React, React-Router-DOM, TailwindCSS.",
     href: "https://project-exam-2-karolina-szymanska.netlify.app/",
     github: "https://github.com/karolina-szymanska/project-exam-2",
-    // texture: "/textures/project/project3.mp4",
+    texture: "/textures/project/project3.png",
     logo: "/assets/project-logo3.png",
     logoStyle: {
       backgroundColor: "#13202F",
