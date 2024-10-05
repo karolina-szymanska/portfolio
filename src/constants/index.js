@@ -59,7 +59,7 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const myProjects = [
   {
     title: "Semester Project 2, Auction",
-    desc: "Auction is a website where users can add items to be bid on and bid on items other users have put up for auction. Users can get credits by selling items and use credit by buying items. Non-registered users can search through the listings, but only registered users can make bids on listings.",
+    desc: "Auction is a website where users can add items to be bid on and bid on items other users have put up for auction. Users can get credits by selling items and use credit by buying items. Non-registered users can search through the listings.",
     subdesc: "Built with HTML5, Bootstrap, JavaScript and SASS.",
     href: "https://auction-semester-project-2.netlify.app/",
     // texture: "/textures/project/project1.mp4",
