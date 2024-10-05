@@ -134,12 +134,12 @@ const Projects = () => {
             <directionalLight position={[10, 10, 5]} />
             <Center>
               <Suspense fallback={<CanvasLoader />}>
-                <group scale={2} position={[0, -3, 0]} rotation={[0, -0.1, 0]}>
-                  <DemoComputer texture={currentProject.texture} />
+                <group scale={9} position={[0, -3, 0]} rotation={[0, -0.1, 0]}>
+                  <DemoComputer />
                 </group>
               </Suspense>
             </Center>
-            <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
+            <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={true} />
           </Canvas>
         </div>
       </div>
