@@ -76,7 +76,7 @@ const Projects = () => {
               ))}
             </div>
 
-            <div className="flex flex-col gap-1">
+            <div className="flex flex-col gap-2">
               <a
                 className="flex items-center gap-2 cursor-pointer text-white-600"
                 href={currentProject.href}
