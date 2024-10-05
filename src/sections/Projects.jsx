@@ -76,15 +76,35 @@ const Projects = () => {
               ))}
             </div>
 
-            <a
-              className="flex items-center gap-2 cursor-pointer text-white-600"
-              href={currentProject.href}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <p>Check Live Site</p>
-              <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
-            </a>
+            <div className="flex flex-col gap-1">
+              <a
+                className="flex items-center gap-2 cursor-pointer text-white-600"
+                href={currentProject.href}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p>See Live Site</p>
+                <img
+                  src="/assets/arrow-up.png"
+                  alt="arrow"
+                  className="w-3 h-3"
+                />
+              </a>
+
+              <a
+                className="flex items-center gap-2 cursor-pointer text-white-600"
+                href={currentProject.github}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p>Check GitHub Repo</p>
+                <img
+                  src="/assets/arrow-up.png"
+                  alt="arrow"
+                  className="w-3 h-3"
+                />
+              </a>
+            </div>
           </div>
 
           <div className="flex justify-between items-center mt-7">
