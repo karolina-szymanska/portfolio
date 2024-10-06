@@ -1,3 +1,4 @@
+// https://models.readyplayer.me/6702ba86389f44585f3c8f3c.glb
 import { workExperiences } from "../constants/index.js";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
@@ -71,5 +72,3 @@ const Experience = () => {
 };
 
 export default Experience;
-
-// https://models.readyplayer.me/6702ba86389f44585f3c8f3c.glb
