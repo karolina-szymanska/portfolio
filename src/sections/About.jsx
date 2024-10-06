@@ -85,6 +85,9 @@ const About = () => {
                 I am based in Norway, with remote work available, most time
                 zones.
               </p>
+              <p className="grid-subtext">
+                Zoom the globe to find my location.
+              </p>
               <a href="#contact">
                 <Button
                   name="Contact Me"
