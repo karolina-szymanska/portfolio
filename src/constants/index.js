@@ -207,7 +207,7 @@ export const workExperiences = [
   {
     id: 1,
     name: "Love Web",
-    pos: "Frontend Developer Trainee",
+    pos: "Frontend Developer Intern",
     duration: "2024 - Present",
     title:
       "As a frontend developer, I write the code behind what we can see and interact with when we open a website, a program, or an app. The products I develop combine aesthetic appeal, functionality, and precise technical execution.",
@@ -216,18 +216,18 @@ export const workExperiences = [
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
+    name: "Noroff",
+    pos: "Web Development Student",
+    duration: "2020 - 2024",
     title:
-      "Along the way, I was introduced to relevant industry tools, essential for creating dynamic and interactive web solutions. During my studies, I worked on relevant assignments and gained practical experience.",
+      "Along the way, I gained relevant industry tools, essential for creating dynamic and interactive web solutions. During my studies, I worked on relevant assignments and gained practical experience.",
     icon: "/assets/noroff.svg",
     animation: "clapping",
   },
   {
     id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
+    name: "Akasia Søreide",
+    pos: "Kindergarten Assistant",
     duration: "2019 - 2020",
     title:
       "Responsible for helping the head teacher in the classroom by performing assigned duties. It includes developing, organizing, and putting into practice the daily program.",
