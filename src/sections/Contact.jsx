@@ -1,10 +1,12 @@
-//   "service_dcb63ih";
-//   "template_mem28ph"
-//   "PsLbERBfl8BLMwyn-"
+// Email error solved with: https://github.com/adrianhajdin/project_3D_developer_portfolio/issues/89
+
+// The variables taken from EmailJS profile, saved in and imported from .env file:
+// VITE_APP_EMAILJS_SERVICE_ID
+// VITE_APP_EMAILJS_TEMPLATE_ID
+// VITE_APP_EMAILJS_PUBLIC_KEY
 
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
-
 import useAlert from "../hooks/useAlert.js";
 import Alert from "../components/Alert.jsx";
 
@@ -26,16 +28,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.service_dcb63ih,
-        import.meta.env.template_mem28ph,
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Karolina Szymanska",
           from_email: form.email,
           to_email: "karolinaszymanska899@gmail.com",
           message: form.message,
-        }
-        // import.meta.env.PsLbERBfl8BLMwyn-
+        },
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
@@ -61,7 +63,7 @@ const Contact = () => {
 
           showAlert({
             show: true,
-            text: "Something went wrong.",
+            text: "An error occurred.",
             type: "danger",
           });
         }
