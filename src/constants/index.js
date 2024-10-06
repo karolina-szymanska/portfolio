@@ -212,7 +212,7 @@ export const workExperiences = [
     title:
       "As a frontend developer, I write the code behind what we can see and interact with when we open a website, a program, or an app. The products I develop combine aesthetic appeal, functionality, and precise technical execution.",
     icon: "/assets/loveweb.svg",
-    animation: "victory",
+    animation: "clapping",
   },
   {
     id: 2,
@@ -222,7 +222,7 @@ export const workExperiences = [
     title:
       "Along the way, I gained relevant industry tools, essential for creating dynamic and interactive web solutions. During my studies, I worked on relevant assignments and gained practical experience.",
     icon: "/assets/noroff.svg",
-    animation: "clapping",
+    animation: "victory",
   },
   {
     id: 3,
