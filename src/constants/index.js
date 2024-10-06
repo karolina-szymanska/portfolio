@@ -202,3 +202,36 @@ export const clientReviews = [
       "Karolina was a pleasure to work with. She understood our requirements perfectly and delivered a website that exceeded our expectations.",
   },
 ];
+
+export const workExperiences = [
+  {
+    id: 1,
+    name: "Love Web",
+    pos: "Frontend Developer Trainee",
+    duration: "2024 - Present",
+    title:
+      "As a frontend developer, I write the code behind what we can see and interact with when we open a website, a program, or an app. The products I develop combine aesthetic appeal, functionality, and precise technical execution.",
+    icon: "/assets/loveweb.svg",
+    animation: "victory",
+  },
+  {
+    id: 2,
+    name: "Figma",
+    pos: "Web Developer",
+    duration: "2020 - 2022",
+    title:
+      "Along the way, I was introduced to relevant industry tools, essential for creating dynamic and interactive web solutions. During my studies, I worked on relevant assignments and gained practical experience.",
+    icon: "/assets/noroff.svg",
+    animation: "clapping",
+  },
+  {
+    id: 3,
+    name: "Notion",
+    pos: "Junior Web Developer",
+    duration: "2019 - 2020",
+    title:
+      "Responsible for helping the head teacher in the classroom by performing assigned duties. It includes developing, organizing, and putting into practice the daily program.",
+    icon: "/assets/akasia.svg",
+    animation: "salute",
+  },
+];
