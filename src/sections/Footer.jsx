@@ -12,17 +12,32 @@ const Footer = () => {
       </div>
 
       <div className="flex gap-3">
-        <div className="social-icon-container">
+        <a
+          href="https://github.com/karolina-szymanska"
+          target="_blank"
+          rel="noreferrer"
+          className="social-icon-container"
+        >
           <FaGithub className="social-icon" />
-        </div>
+        </a>
 
-        <div className="social-icon-container">
+        <a
+          href="https://www.linkedin.com/in/karolina-szyma%C5%84ska-64b36089/"
+          target="_blank"
+          rel="noreferrer"
+          className="social-icon-container"
+        >
           <FaLinkedinIn className="social-icon" />
-        </div>
+        </a>
 
-        <div className="social-icon-container">
+        <a
+          href="https://www.facebook.com/profile.php?id=100082023381932"
+          target="_blank"
+          rel="noreferrer"
+          className="social-icon-container"
+        >
           <FaFacebook className="social-icon" />
-        </div>
+        </a>
       </div>
 
       <p className="text-white-500">
