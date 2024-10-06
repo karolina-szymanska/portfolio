@@ -34,6 +34,7 @@ The page must look good and be responsive.
 - [React](https://react.dev/)
 - [Three.js](https://threejs.org/)
 - [TailwindCSS](https://tailwindcss.com/)
+- [EmailJS](https://www.emailjs.com/)
 
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/vitejs/vitejs-original.svg" title="Vite" alt="Vite" width="40" height="40"/>&nbsp;
