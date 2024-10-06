@@ -12,16 +12,16 @@ const Footer = () => {
       </div>
 
       <div className="flex gap-3">
-        <div className="social-icon">
-          <FaGithub className="w-1/2 h-1/2" />
+        <div className="social-icon-container">
+          <FaGithub className="social-icon" />
         </div>
 
-        <div className="social-icon">
-          <FaLinkedinIn className="w-1/2 h-1/2" />
+        <div className="social-icon-container">
+          <FaLinkedinIn className="social-icon" />
         </div>
 
-        <div className="social-icon">
-          <FaFacebook className="w-1/2 h-1/2" />
+        <div className="social-icon-container">
+          <FaFacebook className="social-icon" />
         </div>
       </div>
 
