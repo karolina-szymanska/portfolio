@@ -134,7 +134,7 @@ const Projects = () => {
             <directionalLight position={[10, 10, 5]} />
             <Center>
               <Suspense fallback={<CanvasLoader />}>
-                <group scale={10} position={[0, -3, 0]} rotation={[0, 1, 0]}>
+                <group scale={10} position={[0, -1, 0]} rotation={[0, 1, 0]}>
                   <DemoComputer />
                 </group>
               </Suspense>
